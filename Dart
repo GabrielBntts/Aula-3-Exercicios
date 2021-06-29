@@ -1,0 +1,58 @@
+void main() {
+  
+  dynamic nome = "Gabriel";
+  dynamic sobrenome = "Benites";
+  dynamic idade = "25";
+  dynamic endereco = "Rua 15 de Janeiro \n";
+  
+  print(nome);
+  print(sobrenome);
+  idade = "25 anos";
+  print(idade);
+  print(endereco);
+    
+  //Exercicio2
+  double s = 30;
+  double p = 4;
+  
+  String pessoas = '*';
+  
+  
+  switch(pessoas)
+  {
+    case '*':
+      print(s * p);
+      break;
+      
+  default:
+      print('!');
+  }
+
+
+  //Exercicio3
+  
+  double baseMaior = 15;
+  double baseMenor = 3;
+  double altura = 6;
+  var area = ((baseMaior + baseMenor) * altura) /2.0;
+    print("A área de um trapézio é: $area");
+   
+  
+  //Exercicio4
+  
+    double l = 15;
+   
+    var area = ((l * l) * 4);
+      print("A área de um quadrado é: $area");
+
+  //Exercicio5
+    //Declaração da variável String
+  String nome = "Gabriel";
+  
+  if(nome == "Gabriel") {
+    print("É a mesma pessoa");
+      }else{
+    print("Os nomes não conferem");
+  } 
+  
+} 
